@@ -1,0 +1,109 @@
+body{
+	background-image: url("back.jpg");
+	color:white;
+	font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+h2{
+	font-size:26px;
+}
+header{
+	font-size:36;
+	text-align:center;
+	background-color:#fff;
+	color:#000;
+	padding:10px;
+	margin-bottom:0px;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-size:20px;
+}
+
+
+
+li {
+    float: left;
+}
+
+li a:hover:not(.active) {
+    background-color: #333;
+}
+.active{
+	background-color:darkred;
+}
+#main{
+
+	margin-left:15%;
+	overflow:auto;
+	padding:0px;
+}
+form label{
+	font-size:26px;
+}
+input#search{
+	padding:16px 5px;
+	background:black;
+    border:1px solid white;
+	color:white;
+	font-size:26px;
+	width:25%
+}
+#button {
+                position:relative;
+                padding:16px 0px;
+                
+                border:2px solid white;
+                background:black;
+                color:white;
+				font-size:26px;
+				width:20%
+}
+#button:hover  {
+                background:#191919;
+                color:white;				
+}
+#center  table{
+	width:100%;
+	font-size:18px;
+}
+td,th{
+	padding-bottom:10px;
+	padding-top:10px;
+}
+td a{
+	
+	text-decoration:none;
+}
+
+tr:nth-child(even){
+	background: black;
+	color:white;
+}
+tr:nth-child(odd) {
+	background:white;
+	color:black;
+}
+#left{
+	float:left;
+	
+}
+#green{
+	color:green;
+}
+#red{
+	color:red;
+}
